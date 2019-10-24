@@ -1,5 +1,4 @@
 <?
-
 //测试:array_splice();
 $arr_src = array("a"=>"red","b"=>"yellow","c"=>"green","d"=>"black");
 $arr_dire = array("a"=>"blue","b"=>"purple");
