@@ -1,8 +1,10 @@
 <?
 //测试:array_splice();
+//原始函数
 $arr_src = array("a"=>"red","b"=>"yellow","c"=>"green","d"=>"black");
+//替换函数
 $arr_dire = array("a"=>"blue","b"=>"purple");
-$arr_splice = array_splice($arr_src,0,-5,$arr_dire);
+$arr_splice = array_splice($arr_src,0,2,$arr_dire);
 echo "<pre>";
 // var_dump($arr_splice);
 // print_r($arr_splice);
