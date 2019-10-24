@@ -24,5 +24,5 @@ shuffle($arr);
 $arr_slice = array_slice($arr,0,5);
 //(4)将数组转成字符串并输出
 $str = implode('',$arr_slice);
-//(5)输出字符串
+//(5)输出字符串;
 echo $str;
