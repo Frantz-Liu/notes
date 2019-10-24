@@ -11,5 +11,6 @@ function code($length){
      $str = implode('',$arr_slice);
     return $str;
 }
+//调用随机码函数
 code($length);
 ?>
